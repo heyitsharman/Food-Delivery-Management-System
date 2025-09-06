@@ -60,8 +60,7 @@ Food-Delivery-Management-System/
 ├── pom.xml
 └── README.md
 
-
----
+```
 ## Technologies Used
 - Java 17+  
 - Spring Boot (MVC, Data JPA, Async)  
@@ -97,21 +96,21 @@ Food-Delivery-Management-System/
 ## Setup & Installation (Run on Local Machine)
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/Food-Delivery-Management-System.git
-   cd Food-Delivery-Management-System
-
+```bash
+git clone https://github.com/yourusername/Food-Delivery-Management-System.git cd Food-Delivery-Management-System
+```
 2. **Configure Database in src/main/resources/application.properties**
-- `spring.datasource.url=jdbc:mysql://localhost:3306/food_delivery`
-- `spring.datasource.username=root`
-- `spring.datasource.password=yourpassword`
-- `spring.jpa.hibernate.ddl-auto=update`
-- `spring.jpa.show-sql=true`
-
+   - spring.datasource.url=jdbc:mysql://localhost:3306/food_delivery
+   - spring.datasource.username=root
+   - spring.datasource.password=yourpassword
+   - spring.jpa.hibernate.ddl-auto=update
+   - spring.jpa.show-sql=true
+     
 3. **Build and run the project**
-  ```bash
+```bash
   mvn clean install
   mvn spring-boot:run
+```
 
 
 
